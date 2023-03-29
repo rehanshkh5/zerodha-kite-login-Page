@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #F9F9F9;
+}
+
+.container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 360px;
+    height: 400px;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 1px 4px #eee;
+    border-radius: 3px;
+}
+
+
+.login img {
+    margin-top: 10px;
+    width: 55px;
+
+}
+
+.loginpage {
+
+    text-align: center;
+    margin-top: 50px;
+}
+
+.login input {
+
+    margin-top: 24px;
+    border: 1px solid #eee;
+    padding: 7px 34px;
+    outline: 0;
+}
+
+.login h2 {
+    margin-top: 15px;
+    font-weight: 200;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input[type="text"]::placeholder {
+
+    /* Firefox, Chrome, Opera */
+    text-align: left;
+
+}
+
+.login button {
+    display: inline-block;
+    color: white;
+    border: 1px solid #eee;
+    background-color: #ff5722;
+    font-size: .925rem;
+    padding: 5px 98px;
+    margin-top: 28px;
+    cursor: pointer;
+}
+.login button:hover{
+    opacity: .8;}
+
+.login p {
+    margin-top: 8px;
+    font-size: 10px;
+    font-weight: 200;
+    color: #9b9b9b;
+}
+
+.footer {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-64%, 217px);
+    text-align: center;
+    padding-left: 50px;
+}
+
+.icon {
+    width: 15px;
+    padding: 0px 25px;
+
+}
+
+.zero-icon {
+    
+    margin-top: 12px;
+}
+
+.link p{
+    color: #9b9b9b;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 15px;
+    margin-top: 12px;
+  }
+  .disclamer{
+    font-size: 10px;
+    color: #9b9b9b;
+    
+
+  }
+  .disclamer a{
+    color: #9b9b9b;
+border-bottom: 1px dotted;
+    text-decoration: none;
+ 
+   }
+   .disclamer h4{
+    font-size: 11px;
+    margin-top: 8px;
+   }
+   .su-input-label{
+    display: block;
+     background: white;
+    visibility: hidden;
+    position: absolute;
+    top: -10px;
+    z-index: 5;
+    padding: 0px 5px;
+    
+    margin-left: 10px;
+}
+.su-input-label .su-visible .su-dynamic-label{
+    visibility: visible;
+    animation: ;
+}
+.su-input-label.su-visible, .su-input-group .su-message, .su-select .su-message { -webkit-animation-duration: .17s; 
+    animation-duration: .17s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both;
+}
